@@ -25,10 +25,10 @@ public class Login {
     public void login1(){
         click(By.cssSelector("[href='/login']"));
         pause(2000);
-        type(By.cssSelector("#user"),"juliakliot.jk@gmail.com");
+        type(By.cssSelector("#user"),"katuha1995@gmail.com");
         click(By.cssSelector("#login"));
         pause(2000);
-        type(By.cssSelector("#password"),"misha240613");
+        type(By.cssSelector("#password"),"12345.com");
         click(By.cssSelector("#login-submit"));
         pause(2000);
     }
@@ -40,6 +40,7 @@ public class Login {
     }
 
     public void click(By locator) {
+
         wd.findElement(locator).click();
     }
 

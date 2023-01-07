@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-05T18:06:17" hostname="WIN-UK2CA3OCGGH" time="7.252">
+<testsuite name="tests.Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-05T18:16:11" hostname="WIN-UK2CA3OCGGH" time="8.618">
   <properties/>
-  <testcase name="login1" classname="tests.Login" time="7.252"/>
+  <testcase name="login1" classname="tests.Login" time="8.618"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 61052
+  <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 63848
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-янв. 05, 2023 8:06:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+янв. 05, 2023 8:16:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-янв. 05, 2023 8:06:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+янв. 05, 2023 8:16:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 104
-янв. 05, 2023 8:06:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+янв. 05, 2023 8:16:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 108 of 104
-[1672941988.457][WARNING]: Timed out connecting to Chrome, retrying...
-[1672941996.461][WARNING]: Timed out connecting to Chrome, retrying...
+[1672942584.953][WARNING]: Timed out connecting to Chrome, retrying...
+[1672942592.956][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
 </testsuite>
