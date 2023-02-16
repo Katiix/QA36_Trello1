@@ -13,8 +13,8 @@ public class BoardHelper extends HelperBase{
     }
 
     public void initBoardCreation() {
-        click(By.cssSelector("[data-testid='header-create-menu-button']"));
-        click(By.cssSelector("[aria-label = 'BoardIcon']"));
+        click(By.cssSelector("div.board-tile.mod-add"));
+        //click(By.cssSelector("[aria-label = 'BoardIcon']"));
 
     }
 
@@ -40,6 +40,6 @@ public class BoardHelper extends HelperBase{
     }
 
     public void returnToHomePage() {
-        click(By.cssSelector(".m2N684FcksCyfT"));
+        click(By.cssSelector("a[href='/']"));
     }
 }

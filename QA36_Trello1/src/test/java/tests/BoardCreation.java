@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import model.Board;
 import model.User;
 import org.testng.Assert;
@@ -20,14 +21,14 @@ public class BoardCreation extends TestBase{
 
     }
 
-    @Test
 
-    public void boardCreation1(){
-        Board board = new Board().withTitle("qa36");
+    @Test(dataProvider = "boardModel", dataProviderClass = MyDataProvider.class)
 
+    public void boardCreation1(Board board){
+        //Board board = new Board().withTitle("qa36");
         app.getBoard().initBoardCreation();
         app.getBoard().fillInBoardCreationForm(board);
-        app.getBoard().scrollDownTheForm();
+        //app.getBoard().scrollDownTheForm();
         app.getBoard().pause(2000);
         app.getBoard().submitBoardCreation();
         app.getBoard().pause(2000);
